@@ -16,7 +16,7 @@ module "vpc" {
     Environment = "dev"
   }
 }
-output privet_subnets {
+output private_subnets {
   description = "Prints out private_subnets
   value = module.vpc.private_subnets
 }
