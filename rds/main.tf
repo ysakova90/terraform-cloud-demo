@@ -11,7 +11,6 @@ resource "aws_db_instance" "default" {
 	engine = "mysql"
 	engine_version = "5.7"
 	instance_class = "db.t2.micro"
-	name = "mydb"
 	username = "foo"
 	password = "foobarbaz"
 	publicly_accessible = true
